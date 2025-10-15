@@ -3,67 +3,96 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>許玉麗的個人履歷</title>
+  <title>河氏碧葉 — 履歷表</title>
   <style>
-    body { font-family: 'Noto Sans TC', sans-serif; background: #f5f5f5; margin: 40px; }
-    .card { background: white; border-radius: 10px; padding: 20px; max-width: 800px; margin: auto; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-    img { width: 100%; border-radius: 10px; margin-top: 15px; }
-    h1 { color: #0078d7; }
-    h2 { color: #333; margin-top: 25px; }
-    ul { list-style-type: none; padding-left: 0; }
-    li { margin-bottom: 8px; }
-    .info { display: flex; flex-wrap: wrap; justify-content: space-between; }
-    .section { margin-top: 15px; }
+    body {
+      font-family: "Noto Sans TC", sans-serif;
+      background-color: #ffffff;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .header {
+      text-align: center;
+      background-color: #f7f9fc;
+      padding: 40px 20px;
+    }
+
+    .profile-photo {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 10px; /* ĐỔI: hình vuông bo nhẹ góc */
+    }
+
+    h1 {
+      margin-top: 15px;
+      font-size: 22px;
+      color: #222;
+    }
+
+    .info {
+      font-size: 15px;
+      margin-top: 5px;
+    }
+
+    section {
+      padding: 20px 40px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      border-left: 5px solid #1a73e8;
+      padding-left: 10px;
+      color: #1a73e8;
+    }
+
+    ul {
+      list-style-type: "• ";
+      padding-left: 20px;
+    }
+
+    img.school-photo {
+      width: 100%;
+      border-radius: 8px;
+      margin-top: 15px;
+    }
   </style>
 </head>
 <body>
-  <div class="card">
-    <h1>許玉麗</h1>
-    <p>亞洲大學 建管系 一年級 1P 班</p>
-    <p>學號：114011122</p>
-    <p>Email: huangocle.04032006@gmail.com</p>
-    <p>電話：0970118595</p>
-    <hr>
-
-    <h2>個人簡介</h2>
-    <p>我是亞洲大學建管系一年級學生（學號114011122）。我喜歡烹飪，並希望能找到與此相關的工作，以便學習和培養自己的興趣。</p>
-    <img src="profile_photo.jpg" alt="個人照片">
-
-    <div class="section">
-      <h2>語言能力</h2>
-      <ul>
-        <li>越南語（母語）</li>
-        <li>中文（良好）</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>興趣</h2>
-      <p>閱讀、聽音樂、玩遊戲</p>
-    </div>
-
-    <div class="section">
-      <h2>技能</h2>
-      <ul>
-        <li>文書處理（Word / Excel）</li>
-        <li>基礎HTML / CSS</li>
-        <li>團隊合作</li>
-        <li>學習能力強</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>工作經驗</h2>
-      <ul>
-        <li>全聯：負責收銀與整理商品。</li>
-        <li>麵店：協助廚房準備與清潔工作。</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>職涯目標</h2>
-      <p>希望能在學習中累積更多新知識與實作經驗，未來成為一名專業的畫家。</p>
+  <div class="header">
+    <img src="profile_photo.jpg" alt="個人照片" class="profile-photo">
+    <h1>河氏碧葉</h1>
+    <div class="info">
+      <p><strong>學號：</strong>114011128</p>
+      <p><strong>學校：</strong>亞洲大學 一年級</p>
+      <p><strong>Email：</strong>had72068@gmail.com</p>
+      <p><strong>電話：</strong>0984-087-979</p>
+      <p><strong>地址：</strong>台中市，台灣</p>
     </div>
   </div>
+
+  <section>
+    <h2>個人簡介</h2>
+    <p>我是亞洲大學一年級學生，熱愛藝術與創作。對繪畫、設計與美感表達有高度興趣，喜歡挑戰新事物。</p>
+    <p>目前無正式工作經驗 — 有志於從基礎學習與練習繪畫，不斷提升自己的藝術能力。</p>
+    <img src="school.jpg" alt="亞洲大學" class="profile_photo.jpg">
+  </section>
+
+  <section>
+    <h2>學歷</h2>
+    <p>亞洲大學 — 在學中・一年級</p>
+  </section>
+
+  <section>
+    <h2>實作 / 專案</h2>
+    <ul>
+      <li>校園繪畫學習：參與校內各類繪畫作品觀摩與練習。</li>
+      <li>個人創作作品：擁有多幅個人繪畫創作，風格多樣。</li>
+    </ul>
+  </section>
 </body>
 </html>
